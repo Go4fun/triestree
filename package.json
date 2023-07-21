@@ -1,0 +1,11 @@
+{
+  "name": "triestree",
+  "version": "1.0.0",
+  "description": "字典树 # 说明 这是一个关于字典树的数据结构和应用代码的项目0721 干脆不需要develop分支了，都从main开始吧。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Basil",
+  "license": "ISC"
+}
