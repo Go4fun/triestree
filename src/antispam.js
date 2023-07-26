@@ -38,7 +38,7 @@ class TrieTree {
                 node = newNode;
             }
 
-            //一个item加进去后，要给最后一个普点增加标志位表示到这里时一个完整的敏感词
+            //一个item加进去后，要给最后一个普点增加标志位表示到这里是一个完整的敏感词
             node.stop = true;
         }
     } 
