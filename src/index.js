@@ -22,7 +22,7 @@ console.log(trie.search("cat")); // 输出: true
 console.log(trie.search("dog")); // 输出: true
 console.log(trie.search("car")); // 输出: false
 console.log(trie.search("ban")); // 输出: false
-console.log(trie.search("apple1")); // 输出: false
+console.log(trie.search("i like eating apple1")); // 输出: true
 console.log("~~~~~~~~~~~~~~~~"); // 输出分隔符
 
 // 搜索前缀
@@ -33,5 +33,4 @@ console.log(trie.startsWith("d")); // 输出: true
 console.log(trie.startsWith("ca")); // 输出: true
 console.log(trie.startsWith("de")); // 输出: false
 console.log(trie.startsWith("ana")); // 输出: false
-
 
